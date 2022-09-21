@@ -1,0 +1,21 @@
+{
+  "name": "Mustit-corp",
+  "description": "introduce company",
+  "version": "1.0.0",
+  "author": "JHY <hyj@mustit.co.kr>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "npm-run-all --parallel live-server sass ",
+    "live-server" :"live-server --port=8888 --open=src",
+    "sass": "node-sass --watch --output-style compact lib/scss/ --output lib/css/",
+    "sass:dev": "node-sass --output-style expanded lib/scss/ --output lib/css/",
+    "sass:prod": "node-sass --quiet --output-style compressed lib/scss/ --output lib/css/"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
