@@ -1,0 +1,197 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { font: 12px/1 "돋움", Dotum, arial, Tahoma, sans-serif; color: #333; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* change colours to suit your needs */
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+/* change colours to suit your needs */
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; border: 0 none; }
+
+/* change border colour to suit your needs */
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+
+input, select, label, textarea { vertical-align: middle; }
+
+input { margin: 0; }
+
+img, fieldset { border: none; }
+
+ul, ol, li { list-style-type: none; }
+
+li img { vertical-align: top; }
+
+button { /*padding:0; border:0; background:transparent;*/ cursor: pointer; }
+
+a { text-decoration: none; }
+
+img { vertical-align: top; font-size: 0; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+
+em, address { font-style: normal; }
+
+/*[D] text hide classes */
+.out { position: absolute; display: block; left: -9999px; width: 1px; height: 1px; font-size: 0; line-height: 0; text-indent: -9999px; overflow: hidden; }
+
+.hide { font-size: 0; line-height: 0; visibility: hidden; }
+
+.blind { position: absolute; left: -9999px; width: 1px; height: 1px; font-size: 0; line-height: 0; text-indent: -9999px; }
+
+/*[D] float Clear */
+.clear { display: block; }
+
+.clear::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+
+html .clear { height: 1%; }
+
+.ellipsis { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+.textform { height: 16px; padding: 5px 0 5px 5px; margin-right: 5px; background-color: #f9f9f9; border: 1px solid #ccc; font-size: 14px; color: #333; }
+
+#pop { position: relative; width: 640px; margin: 0 auto; overflow: hidden; background: white; }
+
+#pop .header { position: relative; }
+
+#pop .header a img { position: absolute; right: 10px; top: 10px; }
+
+#pop .agree { width: 640px; height: 22px; font-size: 12px; color: #777; text-align: center; }
+
+#pop .agree li { display: inline; margin: 0 15px; }
+
+#pop .phone { position: relative; margin: 0 auto; margin-top: 20px; width: 96%; font-size: 12px; color: #777; text-align: center; background: #f0f0f0; border: 1px solid #ddd; }
+
+#pop .phone ul { text-align: center; width: 623px; padding: 30px 0; }
+
+#pop .phone ul li { padding: 10px 0; }
+
+#pop .phone input { width: 160px; padding: 8px 0 8px 10px; }
+
+#cpn { background: #fff url("/src/100years/assets/images//agree/txt_tel.gif") no-repeat left top; }
+
+#authnum { background: #fff url("/src/100years/assets/images//agree/txt_num.gif") no-repeat left top; }
+
+.btnBox100 { position: absolute; lefT: 0; bottom: 80px; width: 100%; text-align: center; }
+
+#pop .sns { width: 96%; text-align: center; margin: 0 auto; background: #f0f0f0; border: 1px solid #ddd; padding: 30px 0 40px 0; }
+
+body.index { background: #000 url("/src/100years/assets/images//index_bg.gif") no-repeat center top; }
+
+#wrapper { width: 900px; margin: 0 auto; position: relative; overflow: hidden; height: 1100px; }
+
+#wrapper .snow { position: absolute; left: 50%; top: -100px; }
+
+#wrapper .logo { position: absolute; left: 22px; top: 17px; }
+
+#wrapper h1 { text-align: center; margin-top: 64px; }
+
+#wrapper .stitle { text-align: center; margin-top: -150px; }
+
+#wrapper .post { text-align: center; margin-top: -50px; }
+
+#wrapper .letterBox { position: absolute; left: 0; top: 0; width: 100%; height: 522px; overflow: hidden; }
+
+#wrapper .letter { position: absolute; right: 0; top: 0px; }
+
+#wrapper .btnBox { width: 799px; height: 239px; background: url("/src/100years/assets/images//index_btnBox.png") no-repeat left top; position: absolute; left: 50px; top: 750px; }
+
+#wrapper .btnBox ul { height: 100%; }
+
+#wrapper .btnBox ul li { width: 50%; height: 100%; position: relative; float: left; }
+
+#wrapper .btnBox ul li * { position: absolute; }
+
+#wrapper .event1 > img { left: 70px; top: 73px; }
+
+#wrapper .event1 > p { left: 185px; top: 70px; }
+
+#wrapper .event1 a img { left: 185px; top: 126px; }
+
+#wrapper .event2 > img { left: 11px; top: 63px; }
+
+#wrapper .event2 > p { left: 140px; top: 70px; }
+
+#wrapper .event2 a img { left: 140px; top: 126px; }
+
+body.main { background: #000 url("/src/100years/assets/images//main_bg.gif") repeat-y center top; }
+
+#wrapper1 { width: 900px; margin: 0 auto; position: relative; overflow: hidden; }
+
+#wrapper1 .header { position: relative; width: 100%; height: 351px; background: url("/src/100years/assets/images//main_top.gif") no-repeat left top; overflow: hidden; }
+
+#wrapper1 .header a img { position: absolute; }
+
+#wrapper1 .header .logo1 { left: 13px; top: 17px; }
+
+#wrapper1 .header h1 { text-align: center; padding-top: 76px; }
+
+#wrapper1 .header .nav1 { left: 230px; top: 210px; z-index: 10; }
+
+#wrapper1 .header .nav2 { left: 465px; top: 250px; z-index: 9; }
+
+.con1 { width: 100%; height: 1547px; background: url("/src/100years/assets/images//main1_bg.png") no-repeat left top; padding-bottom: 100px; }
+
+.con1 .period p { padding-top: 28px; text-align: center; }
+
+.con1 .period { text-align: center; }
+
+.con1 .period a img { margin-top: 34px; }
+
+.con1 .process { margin-top: 60px; }
+
+.con1 .process p, .con1 .process div { text-align: center; }
+
+.con1 .process div { margin-top: 35px; }
+
+.con1 .gift p, .con1 .gift div { text-align: center; }
+
+.con1 .gift { margin-top: 65px; }
+
+.con1 .gift p { margin-bottom: 23px; }
+
+.con1 .notice { margin-top: 80px; text-align: center; }
+
+.con1 .footer { margin-top: 80px; text-align: center; }
+
+.footer a img { margin-left: 10px; vertical-align: top; }
+
+.con2 { width: 100%; height: 686px; background: url("/src/100years/assets/images//main2_bg.png") no-repeat left top; padding-bottom: 50px; }
+
+.con2 .period { padding-top: 15px; text-align: center; }
+
+.event2 .nav1 { left: 230px; top: 220px; z-index: 9; }
+
+.event2 .nav2 { left: 450px; top: 220px; z-index: 10; }
+
+.con2 .snsBox_ev { margin-top: 71px; position: relative; }
+
+.con2 .snsBox_ev .gift { margin-left: 437px; }
+
+.con2 .footer { margin-top: 68px; text-align: center; }
+
+.con2 .sns_btn { position: absolute; width: 262px; left: 165px; top: 78px; }
+
+.con2 .sns_btn.winC { top: 105px; left: 148px; }
+
+.con2 .sns_btn p { margin-top: 5px; }
+
+.win_con { text-align: center; }
+
+.win_con p { font: 28px Malgun Gothic,'Malgun Gothic'; margin-bottom: 5%; }
+
+.win_con .cong { font-weight: bold; font-size: 36px; margin: 2% 0 4% 0; }

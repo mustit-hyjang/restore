@@ -1,8 +1,8 @@
 {
-  "name": "Mustit-corp",
-  "description": "introduce company",
+  "name": "Restore",
+  "description": "",
   "version": "1.0.0",
-  "author": "JHY <hyj@mustit.co.kr>",
+  "author": "JHY [davidaff0914@gmail.com]",
   "license": "MIT",
   "private": true,
   "scripts": {

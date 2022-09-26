@@ -1,0 +1,45 @@
+/*[D] text hide classes */
+.out{
+    position:absolute;
+    display:block;
+    left:-9999px;
+    width:1px;
+    height:1px;
+    font-size:0;
+    line-height:0;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+.hide {
+    font-size:0;
+    line-height:0;
+    visibility:hidden
+}
+.blind{
+    position:absolute;
+    left:-9999px;
+    width:1px;
+    height:1px;
+    font-size:0;
+    line-height:0;
+    text-indent:-9999px
+}
+
+/*[D] float Clear */
+.clear{
+    display: block;
+    &::after{
+        content: "."; 
+        display: block; 
+        height: 0px; 
+        clear: both; 
+        visibility: hidden;
+    }
+    
+    html &{height:1%;}
+}
+
+
+.ellipsis{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+
+.textform{height:16px; padding:5px 0 5px 5px; margin-right:5px; background-color:#f9f9f9; 	border:1px solid #ccc; font-size:14px; color:#333;}
